@@ -1,0 +1,33 @@
+2020-07-11 16:40:40,416:    GPU Available: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2020-07-11 16:40:40,416:    Hyper: latent_norm_n: 0
+2020-07-11 16:40:40,416:    Hyper: num_of_norm_param: 0
+2020-07-11 16:40:40,416:    Hyper: num_of_norm_var: 0
+2020-07-11 16:40:40,416:    Hyper: sample_size_testing: 1
+2020-07-11 16:40:40,417:    Hyper: dtype: <dtype: 'float32'>
+2020-07-11 16:40:40,417:    Hyper: sample_size: 1
+2020-07-11 16:40:40,417:    Hyper: check_every: 1
+2020-07-11 16:40:40,417:    Hyper: epochs: 5
+2020-07-11 16:40:40,417:    Hyper: learning_rate: 0.00030000000000000003
+2020-07-11 16:40:40,417:    Hyper: batch_n: 100
+2020-07-11 16:40:40,417:    Hyper: num_of_discrete_var: 20
+2020-07-11 16:40:40,417:    Hyper: sample_from_disc_kl: True
+2020-07-11 16:40:40,417:    Hyper: stick_the_landing: True
+2020-07-11 16:40:40,417:    Hyper: test_with_one_hot: True
+2020-07-11 16:40:40,417:    Hyper: sample_from_cont_kl: True
+2020-07-11 16:40:40,417:    Hyper: model_type: GS_Dis
+2020-07-11 16:40:40,417:    Hyper: n_required: 10
+2020-07-11 16:40:40,417:    Hyper: latent_discrete_n: 10
+2020-07-11 16:40:40,417:    Hyper: num_of_discrete_param: 1
+2020-07-11 16:40:40,417:    Hyper: dataset_name: mnist
+2020-07-11 16:40:40,417:    Hyper: architecture: dense
+2020-07-11 16:40:40,417:    Hyper: temp: 0.67
+2020-07-11 16:40:40,418:    Hyper: seed: 9335
+2020-07-11 16:40:40,418:    Hyper: image_shape: (28, 28, 1)
+2020-07-11 16:40:40,418:    Hyper: iter_per_epoch: 600
+2020-07-11 16:40:50,695:    Epoch    1 || TeELBO -2.51929e+02 || TeELBOC -2.40127e+02 || N 10 || TrL 3.33534e+02 ||  7.9 sec || i:    600 || 
+2020-07-11 16:40:56,362:    Epoch    2 || TeELBO -2.26369e+02 || TeELBOC -2.14067e+02 || N 10 || TrL 2.35766e+02 ||  4.6 sec || i:  1,200 || 
+2020-07-11 16:41:01,995:    Epoch    3 || TeELBO -2.11380e+02 || TeELBOC -1.96952e+02 || N 10 || TrL 2.18782e+02 ||  4.6 sec || i:  1,800 || 
+2020-07-11 16:41:07,902:    Epoch    4 || TeELBO -1.97646e+02 || TeELBOC -1.81300e+02 || N 10 || TrL 2.04349e+02 ||  4.7 sec || i:  2,400 || 
+2020-07-11 16:41:13,909:    Epoch    5 || TeELBO -1.89061e+02 || TeELBOC -1.71697e+02 || N 10 || TrL 1.91886e+02 ||  4.9 sec || i:  3,000 || 
+2020-07-11 16:41:13,911:    Total training time  33.2 secs
+2020-07-11 16:41:13,911:    Final temp  0.67000
