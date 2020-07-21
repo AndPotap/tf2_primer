@@ -1,0 +1,8 @@
+results/*
+*/__pycache__
+*.pptx
+*.jpg
+*.tfrecord
+*.tfrecords
+Log/
+profiler/
